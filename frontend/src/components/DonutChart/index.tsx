@@ -3,6 +3,7 @@ import { BASE_URL } from "utils/requests";
 import axios from "axios";
 import Chart from "react-apexcharts";
 import { SaleSum } from "types/sale";
+
 type ChartData = {
     labels: string[];
     series: number[];
