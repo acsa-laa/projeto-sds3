@@ -49,7 +49,7 @@ const BarChart = () => {
                 }
             ]
         });
-        console.log(chartData)
+        //console.log(chartData)
     });
 }, []);
 
