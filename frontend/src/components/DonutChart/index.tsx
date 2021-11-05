@@ -21,7 +21,7 @@ useEffect(() => { axios.get(`${BASE_URL}/sales/amount-by-seller`)
         const mySeries = data.map(x => x.sum);
 
         setChartData({ labels: myLabels, series: mySeries});
-        console.log(chartData)
+        //console.log(chartData)
     });
 }, []);
 
